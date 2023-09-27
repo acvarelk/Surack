@@ -6,7 +6,22 @@ def main():
     init()
     title = Figlet(font='doom')
     print(Fore.RED + title.renderText('SuracK'))
-    choose = input("[by acvarelk]---------------------------------------------------[v0.1]\n [1] IP TO INFO \n [2] NUMBER TO INFO \n [3] NICKNAME TO INFO \n [4] NAME TO INFO \n [=] Choose option =>> ")
+    choose = input("""
+ _____                      _   __
+/  ___|                    | | / /
+\ `--. _   _ _ __ __ _  ___| |/ / 
+ `--. \ | | | '__/ _` |/ __|    \ 
+/\__/ / |_| | | | (_| | (__| |\  \
+\____/ \__,_|_|  \__,_|\___\_| \_/
+
+
+
+[by acvarelk]---------------------------------------------------[v0.1]
+ [1] IP TO INFO 
+ [2] NUMBER TO INFO 
+ [3] NICKNAME TO INFO 
+ [4] NAME TO INFO 
+ [=] Choose option =>>""")
     if choose == '1':
        os.system("clear")
        os.system('python ip-linux.py')
