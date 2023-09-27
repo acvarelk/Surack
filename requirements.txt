@@ -1,0 +1,6 @@
+os
+re
+requetst
+colorama
+pyfiglet
+phonenumbers
