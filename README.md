@@ -7,10 +7,4 @@ Osint-инструмент для поиска информации по IP, н�
     - ```pip install -r requirements.txt```
     - ```cd win```
     - ```python main.py```
-- Install (For Linux/Termux)
-    - ```git clone https://github.com/acvarelk/Surack```
-    - ```cd Surack```
-    - ```pip3 install -r requirements.txt```
-    - ```cd linux```
-    - ```python3 main-linux.py```
   
