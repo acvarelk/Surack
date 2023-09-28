@@ -4,9 +4,15 @@ from pyfiglet import Figlet
         
 def main():
     init()
-    title = Figlet(font='doom')
-    print(Fore.RED + title.renderText('SuracK'))
-    choose = input("[by acvarelk]---------------------------------------------------[v0.1]\n [1] IP TO INFO \n [2] NUMBER TO INFO \n [3] NICKNAME TO INFO \n [4] NAME TO INFO \n [=] Choose option =>> ")
+    print(Fore.RED + """
+███████╗██╗   ██╗██████╗  █████╗  ██████╗██╗  ██╗
+██╔════╝██║   ██║██╔══██╗██╔══██╗██╔════╝██║ ██╔╝
+███████╗██║   ██║██████╔╝███████║██║     █████╔╝ 
+╚════██║██║   ██║██╔══██╗██╔══██║██║     ██╔═██╗ 
+███████║╚██████╔╝██║  ██║██║  ██║╚██████╗██║  ██╗
+╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
+                                                 """)
+    choose = input("[by acvarelk]---------------------------------------------------[v0.1]\n [1] IP TO INFO \n [2] NUMBER TO INFO \n [3] NICKNAME TO INFO \n [=] Choose option =>> ")
     if choose == '1':
        os.system("CLS")
        os.system('python ip-win.py')
